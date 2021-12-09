@@ -1,0 +1,255 @@
+[
+{
+    "model": "People.profession",
+    "pk": 1,
+    "fields": {
+        "name": "docente"
+    }
+},
+{
+    "model": "People.profession",
+    "pk": 2,
+    "fields": {
+        "name": "ingeniero"
+    }
+},
+{
+    "model": "People.profession",
+    "pk": 3,
+    "fields": {
+        "name": "publicista"
+    }
+},
+{
+    "model": "People.profession",
+    "pk": 4,
+    "fields": {
+        "name": "medico"
+    }
+},
+{
+    "model": "People.profession",
+    "pk": 5,
+    "fields": {
+        "name": "abogado"
+    }
+},
+{
+    "model": "People.profession",
+    "pk": 6,
+    "fields": {
+        "name": "programador"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 1,
+    "fields": {
+        "name": "San Cristobal"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 2,
+    "fields": {
+        "name": "Libertad"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 3,
+    "fields": {
+        "name": "Fernandez Feo"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 4,
+    "fields": {
+        "name": "Cardenas"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 5,
+    "fields": {
+        "name": "Libertador"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 6,
+    "fields": {
+        "name": "Junin"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 7,
+    "fields": {
+        "name": "Garcia de Hevia"
+    }
+},
+{
+    "model": "People.city",
+    "pk": 8,
+    "fields": {
+        "name": "Bolivar"
+    }
+},
+{
+    "model": "People.vehiclemodel",
+    "pk": 1,
+    "fields": {
+        "name": "ford"
+    }
+},
+{
+    "model": "People.vehiclemodel",
+    "pk": 2,
+    "fields": {
+        "name": "yamaha"
+    }
+},
+{
+    "model": "People.vehiclemodel",
+    "pk": 3,
+    "fields": {
+        "name": "chevrolet"
+    }
+},
+{
+    "model": "People.vehiclemodel",
+    "pk": 4,
+    "fields": {
+        "name": "empire"
+    }
+},
+{
+    "model": "People.vehiclemodel",
+    "pk": 5,
+    "fields": {
+        "name": "fiat"
+    }
+},
+{
+    "model": "People.vehicle",
+    "pk": 1,
+    "fields": {
+        "type": "camioneta",
+        "year": 2005,
+        "model": 1
+    }
+},
+{
+    "model": "People.vehicle",
+    "pk": 2,
+    "fields": {
+        "type": "motocicleta",
+        "year": 2013,
+        "model": 2
+    }
+},
+{
+    "model": "People.vehicle",
+    "pk": 3,
+    "fields": {
+        "type": "automovil",
+        "year": 1998,
+        "model": 3
+    }
+},
+{
+    "model": "People.vehicle",
+    "pk": 4,
+    "fields": {
+        "type": "motocicleta",
+        "year": 2009,
+        "model": 4
+    }
+},
+{
+    "model": "People.vehicle",
+    "pk": 5,
+    "fields": {
+        "type": "automovil",
+        "year": 2010,
+        "model": 5
+    }
+},
+{
+    "model": "People.people",
+    "pk": 14234567,
+    "fields": {
+        "first_name": "Maria",
+        "last_name": "Ramirez",
+        "dob": "1978-07-04",
+        "phone": null,
+        "gender": "F",
+        "address": "Mz 19 Casa 11 San Fernando, Cuba",
+        "profession": 1,
+        "vehicle": 1,
+        "city": 1
+    }
+},
+{
+    "model": "People.people",
+    "pk": 15367789,
+    "fields": {
+        "first_name": "Cristal",
+        "last_name": "Castillo",
+        "dob": "1979-04-23",
+        "phone": 2763435566,
+        "gender": "M",
+        "address": "Mz 19 Casa 12 San Fernando, Cuba",
+        "profession": 2,
+        "vehicle": 2,
+        "city": 1
+    }
+},
+{
+    "model": "People.people",
+    "pk": 17543897,
+    "fields": {
+        "first_name": "Cristal",
+        "last_name": "Pacheco",
+        "dob": "1982-05-07",
+        "phone": 2765432123,
+        "gender": "F",
+        "address": "Mz 19 Casa 14 San Fernando, Cuba",
+        "profession": 3,
+        "vehicle": 3,
+        "city": 2
+    }
+},
+{
+    "model": "People.people",
+    "pk": 23111239,
+    "fields": {
+        "first_name": "Oscar",
+        "last_name": "Niño",
+        "dob": "1990-01-30",
+        "phone": 4168798989,
+        "gender": "M",
+        "address": "Tariba",
+        "profession": 2,
+        "vehicle": 5,
+        "city": 4
+    }
+},
+{
+    "model": "People.people",
+    "pk": 81232123,
+    "fields": {
+        "first_name": "Belen",
+        "last_name": "Garcia",
+        "dob": "1968-12-15",
+        "phone": null,
+        "gender": "F",
+        "address": "El piñal casa 11",
+        "profession": 2,
+        "vehicle": 4,
+        "city": 3
+    }
+}
+]
