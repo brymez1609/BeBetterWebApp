@@ -1,4 +1,4 @@
-from django.conf.urls import include,url
+from django.urls import include,path
 from People.views import CityViewSet, PeopleViewSet, ProfessionViewSet, VehicleViewSet
 from rest_framework import routers
 
@@ -17,8 +17,8 @@ profession_list = ProfessionViewSet.as_view({
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    url('', include(router.urls)),    
-    url('city/', city_list, name='city-list'),
-    url('vehicle/', vehicle_list, name='vehicle-list'),
-    url('profession/', profession_list, name='profession-list'),
+    path('', include(router.urls)),
+    path('city/', city_list, name='city-list'),
+    path('vehicle/', vehicle_list, name='vehicle-list'),
+    path('profession/', profession_list, name='profession-list'),
 ]
